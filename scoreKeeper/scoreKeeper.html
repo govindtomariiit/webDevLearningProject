@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="scoreKeeper.css">
+</head>
+
+<body>
+    <!-- Making navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Score Keeper</span>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1 class="display-2"><span class="font-weight-bold" id="p1Display">0</span class="font-weight-bold"> to <span class="font-weight-bold" id="p2Display">0</span></h1>
+                <h1 class="display-4 mb-4">Playing Upto : <span id="winScore">5</span></h1>
+                <label for="number">Winning Score : </label>
+                <input type="number" id="maxScoreInput">
+                <br>
+                <div class="mt-3 mb-0">
+                    <button id="btnP1" class="btn btn-danger btn-lg mr-2">Player 1</button class="btn btn-success btn-lg ml-2">
+                    <button id="btnP2" class="btn btn-warning btn-lg ml-2">Player 2</button>
+                </div>
+                <br>
+                <button id="reset" class="mt-0 btn btn-info">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="scoreKeeper.js"></script>
+</body>
+
+</html>
