@@ -1,0 +1,25 @@
+div {
+    width: 60%;
+    margin: 2% auto;
+    display: block;
+    border: 20px solid #bdc3c7;
+    padding-left: 3%;
+    padding-right: 2%;
+    font-family: source sans pro;
+}
+
+.date {
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 50px;
+}
+
+#special {
+    border-left: 8px solid #bdc3c7;
+    padding-left: 10px;
+}
